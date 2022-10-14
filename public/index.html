@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web1</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!--fuente google font Oswald-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" type="module"></script>
+</head>
+<body>
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="container">
+        <nav class="nav-main">
+            <img src="img/brand.png" alt="logo" class="nav-brand">
+            <ul class="nav-menu">
+                <li>
+                    <button class="btn" id="logout">Salir</button>
+                </li>
+                <li>
+                    <a href="#">Sección 2</a>
+                </li>
+                <li>
+                    <a href="#">Sección 3</a>
+                </li>
+                <li>
+                    <a href="#">Sección 4</a>
+                </li>
+                <li>
+                    <a href="#">Sección 5</a>
+                </li>
+                <li>
+                    <a href="#">Sección 6</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+
+        <!--Showcase-->
+        <header class="showcase">
+            <h3 class='hello' id="hello">Hello user</h3>
+            <button class="btn" id="google">Entrar con Google</button>
+            <button class="btn" id="facebook">Entrar con Facebook</button>
+            <form id="signup-form">
+                <h2>REGÍSTRATE</h2>
+                <div class="form-group">
+                    <input type="email" id="signup-email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="signup-password" class="form-control" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn">Entrar</button>
+            </form>
+            <form id="signin-form">
+                <h2>Inicia Sesión</h2>
+                <div class="form-group">
+                    <input type="email" id="signin-email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="signin-password" class="form-control" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn">Entrar</button>
+            </form>
+            <!--<a href="#" class="btn">Leer mas <i class="fas fa-angle-double-right"></i></a>-->
+        </header>
+        <!--Secc. Posts-->
+        <div class="news-cards">
+            <div>
+                <ul class="list-group posts"></ul>
+            </div>
+        </div>
+        <!--Secc. noticias-->
+        <div class="news-cards">
+            <div>
+                <img src="img/news1.jpg" alt="news 1">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt beatae temporibus eum earum animi iure cum nesciunt quasi dignissimos! Saepe.</p>
+                <a href="#">APRENDER MAS <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/news2.jpg" alt="news 2">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt beatae temporibus eum earum animi iure cum nesciunt quasi dignissimos! Saepe.</p>
+                <a href="#">APRENDER MAS <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/news3.jpg" alt="news 3">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt beatae temporibus eum earum animi iure cum nesciunt quasi dignissimos! Saepe.</p>
+                <a href="#">APRENDER MAS <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/news4.jpg" alt="news 4">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt beatae temporibus eum earum animi iure cum nesciunt quasi dignissimos! Saepe.</p>
+                <a href="#">APRENDER MAS <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
+        <section class="cards-banner-one">
+            <div class="content">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit soluta, vitae deserunt eos repudiandae nostrum provident velit asperiores commodi libero.</p>
+                <a href="#" class="btn">Aprende mas<i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+                <!--Secc. noticias-->
+        <div class="news-cards">
+            <div>
+                <img src="img/news1.jpg" alt="news 1">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt beatae temporibus eum earum animi iure cum nesciunt quasi dignissimos! Saepe.</p>
+                <a href="#">APRENDER MAS <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/news2.jpg" alt="news 2">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt beatae temporibus eum earum animi iure cum nesciunt quasi dignissimos! Saepe.</p>
+                <a href="#">APRENDER MAS <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/news3.jpg" alt="news 3">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt beatae temporibus eum earum animi iure cum nesciunt quasi dignissimos! Saepe.</p>
+                <a href="#">APRENDER MAS <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/news4.jpg" alt="news 4">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt beatae temporibus eum earum animi iure cum nesciunt quasi dignissimos! Saepe.</p>
+                <a href="#">APRENDER MAS <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
+
+        <!--banner final-->
+        <section class="cards-banner-two">
+            <div class="content">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus quidem debitis a doloremque obcaecati suscipit placeat autem aperiam sapiente, aliquam ut odit! Consectetur quos inventore dolore in placeat laboriosam!</p>
+                <a href="#" class="btn">Aprender mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+        <section class="social">
+            <p>Follow Web1</p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+    </div>
+    <div class="footer-links">
+        <div class="footer-container">
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title one</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title two</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title three</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title four</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title five</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title six</h3>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title one</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title two</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title three</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title four</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title five</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title six</h3>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title one</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title two</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title three</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title four</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title five</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title six</h3>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title one</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title two</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title three</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title four</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title five</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Title six</h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <h3>Tech News Copyright</h3>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
